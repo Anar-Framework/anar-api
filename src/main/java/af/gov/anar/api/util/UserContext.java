@@ -1,5 +1,5 @@
 
-package af.gov.anar.async.util;
+package af.gov.anar.api.util;
 
 import javax.annotation.Nonnull;
 import java.util.Objects;

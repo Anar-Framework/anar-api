@@ -1,7 +1,7 @@
 
-package af.gov.anar.async.util;
+package af.gov.anar.api.util;
 
-import af.gov.anar.async.config.ApiConfiguration;
+import af.gov.anar.api.config.ApiConfiguration;
 import feign.Feign;
 import feign.gson.GsonDecoder;
 import feign.gson.GsonEncoder;
@@ -29,7 +29,6 @@ public class ApiFactory {
         .contract(new SpringMvcContract())
         .client(client)
         .errorDecoder(new AnnotatedErrorDecoder(logger, clazz))
-        .requestInterceptor(new TenantedTargetInterceptor())
         .requestInterceptor(new TokenedTargetInterceptor())
         .requestInterceptor(new EmptyBodyInterceptor())
         .requestInterceptor(client.getCookieInterceptor())
@@ -44,7 +43,6 @@ public class ApiFactory {
             .contract(new SpringMvcContract())
             .client(client)
             .errorDecoder(new AnnotatedErrorDecoder(logger, clazz))
-            .requestInterceptor(new TenantedTargetInterceptor())
             .requestInterceptor(new TokenedTargetInterceptor())
             .requestInterceptor(new EmptyBodyInterceptor())
             .requestInterceptor(client.getCookieInterceptor())

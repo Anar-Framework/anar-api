@@ -1,8 +1,8 @@
 
-package af.gov.anar.async.util;
+package af.gov.anar.api.util;
 
-import af.gov.anar.async.config.ApiConfiguration;
-import af.gov.anar.async.config.EnableApiFactory;
+import af.gov.anar.api.config.ApiConfiguration;
+import af.gov.anar.api.config.EnableApiFactory;
 import feign.Feign;
 import feign.Target;
 import feign.codec.Decoder;

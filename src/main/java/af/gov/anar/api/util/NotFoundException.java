@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package af.gov.anar.async.util;
+package af.gov.anar.api.util;
 
 /**
  * @author Myrle Krantz

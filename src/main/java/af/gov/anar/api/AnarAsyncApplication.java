@@ -1,4 +1,4 @@
-package af.gov.anar.async;
+package af.gov.anar.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,8 +1,8 @@
 
-package af.gov.anar.async.util;
+package af.gov.anar.api.util;
 
-import af.gov.anar.async.annotation.ThrowsException;
-import af.gov.anar.async.annotation.ThrowsExceptions;
+import af.gov.anar.api.annotation.ThrowsException;
+import af.gov.anar.api.annotation.ThrowsExceptions;
 import feign.Feign;
 import feign.FeignException;
 import feign.Response;
