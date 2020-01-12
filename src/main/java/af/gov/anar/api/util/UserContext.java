@@ -8,7 +8,7 @@ public class UserContext {
   private final String user;
   private final String accessToken;
 
-  UserContext(@Nonnull String user, @Nonnull String accessToken) {
+  public UserContext(@Nonnull String user, @Nonnull String accessToken) {
     this.user = user;
     this.accessToken = accessToken;
   }
