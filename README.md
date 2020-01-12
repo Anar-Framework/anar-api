@@ -1,7 +1,11 @@
-#### Library for multi-threading and Async operation processing
-
+#### Library for API Utility functions
 
 ##### Features
- - Async Processing
- - Enable Async Annotation
- - Delegate Context
+
+- ThrowException (s) Annotation
+- Enable Api Factory Annotation and Configuration
+- User Context
+- Cookie Management
+- Common Exceptions
+- Response Handler - controller Advice
+- and more
