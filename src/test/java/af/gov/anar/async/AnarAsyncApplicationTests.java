@@ -1,4 +1,4 @@
-package af.gov.anar.async.anarasync;
+package af.gov.anar.async;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
