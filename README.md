@@ -1,5 +1,17 @@
 #### Library for API Utility functions
 
+
+```
+        <dependency>
+			<groupId>af.gov.anar.lib</groupId>
+			<artifactId>anar-lib-api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+
+
+```
+
 ##### Features
 
 - ThrowException (s) Annotation
