@@ -16,7 +16,7 @@ public enum ExceptionType {
     ASMISDataSourceException,
     ASMISResourceNotFoundException;
 
-    private ExceptionType(){
+    ExceptionType(){
 
     }
 }

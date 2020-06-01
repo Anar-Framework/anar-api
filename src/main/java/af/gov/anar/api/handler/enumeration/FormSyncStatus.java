@@ -6,7 +6,7 @@ public enum FormSyncStatus {
     SUCCESSFUL("SUCCESSFUL"),
     FAILED("FAILED");
 
-    private String text;
+    private final String text;
 
     FormSyncStatus(final String text)
     {
